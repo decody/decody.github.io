@@ -71,7 +71,7 @@ const StyledPostList = styled.div`
             strong {
                 display: block;
                 font-weight: var(--font-bold);
-                font-size: 1.45rem;
+                font-size: 2rem;
                 color: var(--link-color);
             }
 

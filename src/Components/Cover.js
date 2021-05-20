@@ -67,9 +67,9 @@ const StyledCover = styled.div`
                 text-align: center;
                 font-size: 0.875rem;
                 padding: 1px 10px;
-                color: var(--link-color);
+                color: #fff;
                 font-weight: 700;
-                background-color: var(--bg-light-gray);
+                background-color: var(--link-color);
                 border-radius: 10px;
                 
                 &:hover {

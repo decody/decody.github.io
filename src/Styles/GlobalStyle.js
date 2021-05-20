@@ -5,9 +5,10 @@ const GlobalStyle = createGlobalStyle`
   ${reset}
 :root {
     --font-bold: 700;
-    --link-color: #61b125;
+    --link-color: #9933cc;
     --bg-light-gray: #e4e4e4;
     --bg-mid-gray: #d0d0d0;
+    --radius-value: 25px;
 } 
 * {
   box-sizing: border-box;

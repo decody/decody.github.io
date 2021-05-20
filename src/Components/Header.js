@@ -35,6 +35,7 @@ const StyledHeader = styled.header`
     h1 {
         float: left;
         padding: 2px 20px;
+        color: var(--link-color);
         text-transform: lowercase;
         font-weight: var(--font-bold);
         font-size: 1.4rem;

@@ -18,6 +18,8 @@ const StyledNavbar = styled.nav`
   padding: 40px 0 30px;
 
   .link-home {
+    font-size: 1.2rem;
+    font-weight: var(--font-bold);
     color: var(--link-color);
   }
 `

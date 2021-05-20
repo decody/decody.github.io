@@ -60,7 +60,8 @@ const MainTitle = styled.h1`
   padding: 0 0 10px;
   color: #333;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
+  letter-spacing: -0.02em;
   line-height: 1.5em;
 `
 
@@ -134,11 +135,12 @@ const Image = styled.img`
 const Codebox = styled.pre`
   margin: 20px 0;
   padding: 0 20px;
-  background-color: #f3f3f3;
+  background-color: #223;
+  border-radius: var(--radius-value);
     & code {
       background-color: transparent;
       p { 
-        color: inherit;
+        color: #f8f8f2;
         font-size: 0.95rem;
         line-height: 1.6em;
         font-family: Vernada;
