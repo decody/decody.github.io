@@ -134,16 +134,24 @@ const Image = styled.img`
 
 const Codebox = styled.pre`
   margin: 20px 0;
-  padding: 0 20px;
+  padding: 0 40px;
   background-color: #223;
   border-radius: var(--radius-value);
     & code {
+      color: #f8f8f2;
+      font-size: 0.95rem;
+      font-family: Vernada;
       background-color: transparent;
+      
       p { 
         color: #f8f8f2;
         font-size: 0.95rem;
         line-height: 1.6em;
         font-family: Vernada;
+
+        pre {
+          background-color: transparent;
+        }
       }
     }
 `
