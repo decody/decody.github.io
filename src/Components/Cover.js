@@ -10,7 +10,7 @@ const Cover = () => {
                     <h1>Chris</h1>
                 </div>
                 <p>
-                    대충대충 올드보이 코더. 보테니컬 아트, 어반스케치, 넷플릭스 시청
+                    올드보이 코더, 보테니컬 아트, 어반스케치, 넷플릭스 시청.
                 </p>
                 <div className="info-link">
                     <a href="mailto:gichulroh@gmail.com" className="icon-info">Email</a>
@@ -69,11 +69,11 @@ const StyledCover = styled.div`
                 padding: 1px 10px;
                 color: #fff;
                 font-weight: 700;
-                background-color: var(--link-color);
+                background-color: var(--light-color);
                 border-radius: 10px;
                 
                 &:hover {
-                    background-color: var(--bg-mid-gray);
+                    background-color: var(--dark-color);
                 }
 
                 & + .icon-info {

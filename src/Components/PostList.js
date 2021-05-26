@@ -14,6 +14,104 @@ const PostList = () => {
                     </Link>
                 </li>
                 <li>
+                   <Link to="/post/20200309">
+                        <strong>forEach, map, reduce로 파싱하기</strong>
+                        <time dateTime="2020-03-09">2020년 3월 9일</time>
+                        <p>for문으로 파싱하기...</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20200123">
+                        <strong>영어 말하기 6개월 만에 빠르게 향상시키기</strong>
+                        <time dateTime="2020-01-23">2020년 1월 23일</time>
+                        <p>1. 영어문법책 한권 떼기 문법을 공부할 때 너무 깊이 보지 않고 한달 안에 빠르게 마친다. 2. 하루에 10문장씩 쓰기 관심있는 분야를 선정하여 토픽을 정한 후, 한달 내지 두달동안 하루 10문장씩 쓴다</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20200106">
+                        <strong>자바 String은 객체</strong>
+                        <time dateTime="2020-01-06">2020년 1월 6일</time>
+                        <p>자바에서 String(문자열)은 " "로 감싸면 된다. String은 바로 여러 메서드를 사용할 수 있어 객체로 취급된다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20191210">
+                        <strong>이클립스에 jar 파일 프로젝트에 넣기</strong>
+                        <time dateTime="2019-12-10">2019년 12월 10일</time>
+                        <p>프로젝트 안에 lib 라는 새 폴더를 생성하여 jar 파일 넣기이클립스에서 refresh 하면 폴더가 보임 jar 파일을 모두 선택 후, 오른쪽 마우스 클릭 > Build Path > Add to Build Path 클릭</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20191007">
+                        <strong>Python NumPy</strong>
+                        <time dateTime="2019-10-07">2019년 10월 7일</time>
+                        <p>Numpy는 numerical + python의 약자로 과학계산을 위한 파이썬 라이브러리이며, 다차원 배열을 처리하는데 필요한 계산을 위한 라이브러리로서 그에 필요한 기능들을 제공하고 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20191006">
+                        <strong>프로덕트 매니저의 역할</strong>
+                        <time dateTime="2019-10-06">2019년 10월 6일</time>
+                        <p>프로덕트 매니저는 한국에서는 없는 직업군이었으며, 최근 startup이나 IT 서비스 플랫폼을 만드는 기업을 중심으로 생겨나고 있다. 한국 내에선 가장 비슷한 직업은 서비스 기획자이며, 흔히 얘기하는 주로 고객과 커뮤니케이션하고 일정을 관리하는 PM(Project Manager)와는 다르다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20191001">
+                        <strong>Node.js, express 서버 띄우기</strong>
+                        <time dateTime="2019-10-01">2019년 10월 1일</time>
+                        <p>node.js를 설치하기 https://nodejs.org/ko/에서 LTS 버전을 다운로드하여 설치한다. node.js와 npm 설치확인 NPM이란 node.js의 패키지 매니저이며, nodejs에서 사용하는 모듈이나 패키지를 설치, 관리한다. 프로젝트 폴더 생성과 구조 project package.json 생성 package.json에는 패키지에....</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190925">
+                        <strong>Webpack 설정하기</strong>
+                        <time dateTime="2019-09-25">2019년 9월 25일</time>
+                        <p>webpack.config.js 파일을 생성하여 config 객체를 이용해서 module.exports를 통해 외부로 노출시킬 수 있다. config 파일은 mode, entry, output, module, plugins를 제공한다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190924">
+                        <strong>jQuery-slimScroll 사용하기</strong>
+                        <time dateTime="2019-09-24">2019년 9월 24일</time>
+                        <p>jQuery-slimScroll은 div 내에서 iframe처럼 내부 스크롤을 제공하는 jQuery 라이브러리이다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190923">
+                        <strong>Webpack 시작하기</strong>
+                        <time dateTime="2019-09-23">2019년 9월 23일</time>
+                        <p>webpack은 여러 개의 assets (js, css, png, jpg)을 웹 브라우저가 이해할 수 있는 번들로 묶고 패킹할 수 있는 자바스크립트 모듈 번들러이다. Node.js 환경에서 실행되며, npm으로 설치할 수 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190922">
+                        <strong>데이터 엔지니어링의 정의</strong>
+                        <time dateTime="2019-09-22">2019년 9월 22일</time>
+                        <p>빅데이터에 막연히 관심을 갖던 시절, 데이터 과학자, 데이터 엔지니어, 데이터 분석가의 차이점을 잘 몰랐다. 이런저런 아티클들을 읽은 후 데이터 관련 직종의 차이점을 어느 정도 알게 되었다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190921">
+                        <strong>sessionStorage 테스트</strong>
+                        <time dateTime="2019-09-21">2019년 9월 21일</time>
+                        <p>sessionStorage란 localStorage와 같이 key/value 쌍으로 웹 브라우저에 저장되는 객체이다. sessionStorage객체는 웹 브라우저를 닫으면 생성된 하나의 세션도 사라진다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190919">
+                        <strong>큰 폰트사이즈의 글자 짤림 오류 해결</strong>
+                        <time dateTime="2019-09-19">2019년 9월 19일</time>
+                        <p>css에서 font-family로 동일한 font-size를 적용했을 때, 서로 다른 높이값을 가지게 된다. 각 폰트 자체가 갖고 있는 다른 매트릭스로 인해 높이값이 다르게 된다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190820">
+                        <strong>Windows에서 Chololatey로 패키지 매니징 관리</strong>
+                        <time dateTime="2019-08-20">2019년 8월 20일</time>
+                        <p>Chololatey는 NPM, PIP과 같은 windows 환경에서의 매키징 매니저이다. 자세한 설명이나 매키지 목록은 chololatey 페이지에서 확인할 수 있다. cmd 환경에서 Chololatey 인스톨하기 설치환경: 윈도우즈 7이상, .NET Framework 4이상 아래 코드를 복사하여 cmd에서 실행하면 설치된다. cmd 환경에서 Chol...</p>
+                    </Link>
+                </li>
+                <li>
                     <Link to="/post/20190819">
                         <strong>서블릿(servlet) 이해하기</strong>
                         <time dateTime="2019-08-19">2019년 8월 19일</time>

@@ -5,7 +5,9 @@ const GlobalStyle = createGlobalStyle`
   ${reset}
 :root {
     --font-bold: 700;
-    --link-color: #9933cc;
+    --link-color: #4527a0;
+    --light-color: #7953d2;
+    --dark-color: #000070;
     --bg-light-gray: #e4e4e4;
     --bg-mid-gray: #d0d0d0;
     --radius-value: 25px;

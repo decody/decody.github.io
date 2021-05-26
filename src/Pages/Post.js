@@ -60,9 +60,9 @@ const MainTitle = styled.h1`
   padding: 0 0 10px;
   color: #333;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.4rem;
   letter-spacing: -0.02em;
-  line-height: 1.5em;
+  line-height: 1.3em;
 `
 
 const SectionTitle = styled.h2`
@@ -135,16 +135,16 @@ const Image = styled.img`
 const Codebox = styled.pre`
   margin: 20px 0;
   padding: 0 40px;
-  background-color: #223;
+  background-color: #f5f7f8;
   border-radius: var(--radius-value);
     & code {
-      color: #f8f8f2;
+      color: #444;
       font-size: 0.95rem;
       font-family: Vernada;
       background-color: transparent;
       
       p { 
-        color: #f8f8f2;
+        color: #444;
         font-size: 0.95rem;
         line-height: 1.6em;
         font-family: Vernada;
@@ -157,6 +157,9 @@ const Codebox = styled.pre`
 `
 
 const options = {
+  namedCodesToUnicode: {
+    apos: '&#39;',
+  }, 
   overrides: {
       h1: {
         component: MainTitle
