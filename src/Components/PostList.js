@@ -105,6 +105,139 @@ const PostList = () => {
                     </Link>
                 </li>
                 <li>
+                   <Link to="/post/20190918">
+                        <strong>localStorage 테스트</strong>
+                        <time dateTime="2019-09-18">2019년 9월 18일</time>
+                        <p>localStorage란 사용자 로컬에 저장하는 임시 저장소이다. 저장된 데이터는 만료 기간이 없지만, settionStorage와는 차이가 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190916">
+                        <strong>iframe 높이 자동조절</strong>
+                        <time dateTime="2019-09-16">2019년 9월 16일</time>
+                        <p>style.css html js iframe.html (하위 html)</p>
+                    </Link>
+                </li>
+                <li>
+                   <Link to="/post/20190914">
+                        <strong>ES6의 map, filter, reduce 정리</strong>
+                        <time dateTime="2019-09-14">2019년 9월 14일</time>
+                        <p>일반적인 Loop 구문</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190910">
+                        <strong>ES6 문법 빠르게 정리</strong>
+                        <time dateTime="2019-09-10">2019년 9월 10일</time>
+                        <p>var의 변수스코프는 function단위, const/let은 block 단위, const는 상수, let는 변수</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190907">
+                        <strong>Flask Template에 Jinja2 사용하기</strong>
+                        <time dateTime="2019-09-07">2019년 9월 7일</time>
+                        <p>Jinja2란 Jinja2(이하 Jinja)는 Python 웹 프레임워크인 Flask에 내장되어 있는 Template 엔진이다. Jinja는 JSP의 문법이나 ES6의 template string과 비슷한 문법을 가지고 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190905">
+                        <strong>파이썬 Flask로 간단 웹서버 구동하기</strong>
+                        <time dateTime="2019-09-05">2019년 9월 5일</time>
+                        <p>Flask는 Python으로 구동되는 웹 어플리케이션 프레임워크이다. Django 프레임워크보다 가볍고, 스케일아 작은 서버부터 스케일 큰 서버를 만들 수가 있으며, Jinja와 Werkzeug를 포함하고 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190904">
+                        <strong>파이썬 학습 링크 모음</strong>
+                        <time dateTime="2019-09-04">2019년 9월 4일</time>
+                        <p>Last Updated: Sep 18, 2019 This post will be going to update consistently.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190903">
+                        <strong>유용한 텍스트 CSS 말줄임</strong>
+                        <time dateTime="2019-09-03">2019년 9월 3일</time>
+                        <p>CSS로 작성되는 텍스트 말줄임은 웹 접근성에 반하지만 널리 사용된다. 일반적으로 적용하고자 하는 요소</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190831">
+                        <strong>프론트엔드 개발시 유용한 툴, 링크</strong>
+                        <time dateTime="2019-08-31">2019년 8월 31일</time>
+                        <p>프로그래밍할 때 참고 레퍼런스 모음 사이트</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190830">
+                        <strong>Python 문자열 포맷</strong>
+                        <time dateTime="2019-08-30">2019년 8월 30일</time>
+                        <p>str.format(): Python 3.0+</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190829">
+                        <strong>Atom에서 Python 시작하기</strong>
+                        <time dateTime="2019-08-29">2019년 8월 29일</time>
+                        <p>Atom 에디터에서 파이썬을 사용하기 위해서는 파이썬 패키지를 설치해야 한다. 패키지는 File > Settings 메뉴에서 Install Pakages에서 autocomplete-python과 script를 검색해서 설치한다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190828">
+                        <strong>Python Anaconda 기본설명</strong>
+                        <time dateTime="2019-08-28">2019년 8월 28일</time>
+                        <p>아나콘다(Anaconda, Miniconda 포함)는 파이썬 기반 데이터 분석에 필요한 오픈소스를 모아놓은 개발 플랫폼이다. 아나콘다는 가상환경과 패키지를 관리할 수 있어 각 프로젝트 개발환경을 효율적으로 구성할 수 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190827">
+                        <strong>서블릿 포워드 사용하기</strong>
+                        <time dateTime="2019-08-27">2019년 8월 27일</time>
+                        <p>서블릿 포워드란 서블릿에서 다른 서블릿이나 JSP와 연동하는 기능을 말한다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190826">
+                        <strong>서블릿 로그인할 때 admin 구분하기</strong>
+                        <time dateTime="2019-08-26">2019년 8월 26일</time>
+                        <p>login.html 페이지 작성후, LoginAdmin.java 클래스 파일을 작성한다. http://localhost:8090/ServletFormTest/login.html로 접속하여 로그인 후, 결과값은 http://localhost:8090/ServletFormTest/login에 나타난다. 이때, id를 admin으로 로그인하면 일반 user와 다른 페이지를 보여준다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190825">
+                        <strong>GET/POST방식으로 동시에 서블릿에 요청하기</strong>
+                        <time dateTime="2019-08-25">2019년 8월 25일</time>
+                        <p>GET 전송할 때 URL 뒤에 name=value 형태로 전송하고, 여러 개일때는 '&'으로 연결한다. 전송 데이터는 최대 255자 default 전송방식이며, 보안에 취약하다</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190824">
+                        <strong>서블릿의 응답처리</strong>
+                        <time dateTime="2019-08-24">2019년 8월 24일</time>
+                        <p>아래 코드를 작성한 후, http://localhost:8090/ServletFormTest/input.html에 접속한 후, 양식에 입력한다. 결과값은 http://localhost:8090/ServletFormTest/inputForm에서 확인할 수 있다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190823">
+                        <strong>getParameterNames()를 이용한 요청 처리</strong>
+                        <time dateTime="2019-08-23">2019년 8월 23일</time>
+                        <p>tomcat 서버를 띄우고 http://localhost:8080/pro07/input.html로 접속한 후, 입력하여 나타난 결과값을 출력한다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190822">
+                        <strong>Annotation을 이용한 서블릿 매핑</strong>
+                        <time dateTime="2019-08-22">2019년 8월 22일</time>
+                        <p>http://localhost:8080/pro06/login.html로 html 페이지 확인 Login 버튼을 클릭후 전송된 데이터 url로 확인 가능하다.</p>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/post/20190821">
+                        <strong>Enumeration 인터페이스 정리</strong>
+                        <time dateTime="2019-08-21">2019년 8월 21일</time>
+                        <p>Enumertation 인터페이스는 Collection 프레임워크가 만들어기 전, Iterator의 이전 버전이다. 가능하면 Enumeration 대신 Iteration를 사용을 권장하고 있다.</p>
+                    </Link>
+                </li>
+                <li>
                     <Link to="/post/20190820">
                         <strong>Windows에서 Chololatey로 패키지 매니징 관리</strong>
                         <time dateTime="2019-08-20">2019년 8월 20일</time>
