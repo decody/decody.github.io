@@ -5,7 +5,10 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 import '../Styles/App.css';
-import Markdown from 'markdown-to-jsx';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+// import rehypeHighlight from 'rehype-highlight';  
+import gfm from 'remark-gfm';
 
 class Post extends Component {
 
@@ -29,7 +32,6 @@ class Post extends Component {
       this.getMdFile();
     }
   }
-
   render() {
     return (
       <div className="App">
@@ -38,9 +40,19 @@ class Post extends Component {
         <Navbar />
         <StyledPost>
             <article>
-              <Markdown options={options}>
-                  {this.state.mdfile} 
-                </Markdown>
+              <MarkdownStyle>
+                <ReactMarkdown
+                  rehypePlugins={[rehypeRaw]}
+                  children={this.state.mdfile}
+                  components={{
+                    h1: ({node, ...props}) => <h1 className="page-title" {...props} />,
+                    h2: ({node, ...props}) => <h2 className="section-title " {...props} />,
+                    h3: ({node, ...props}) => <h3 className="sub-section-title " {...props} />,
+                    h4: ({node, ...props}) => <h4 className="date-info" {...props} />,
+                    pre: ({node, ...props}) => <pre className="code-block" {...props} />
+                  }}
+                />
+              </MarkdownStyle>
             </article>
         </StyledPost>
         <Footer />
@@ -56,143 +68,48 @@ const StyledPost = styled.div`
   padding: 10px 0;
 `
 
-const MainTitle = styled.h1`
-  padding: 0 0 10px;
-  color: #333;
-  font-weight: 700;
-  font-size: 2.4rem;
-  letter-spacing: -0.02em;
-  line-height: 1.3em;
-`
-
-const SectionTitle = styled.h2`
-  padding: 20px 0 4px;
-  color: #4a5568;
-  font-weight: 700;
-  font-size: 1.785rem;
-  text-align: left;
-`
-
-const SubSectionTitle = styled.h3`
-  padding: 0 0 20px;
-  color: #4a5568;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-`
-
-const DateTitle = styled.h4`
-  padding: 0 0 20px;
-  color: #8d9096;
-  font-size: 1rem;
-  text-transform: uppercase;
-`
-
-const ParaText = styled.p`
-  margin: 0;
-  padding: 10px 0;
+const MarkdownStyle = styled.div`
   color: #4a5568;
   font-size: 1.125rem;
   text-align: left;
   line-height: 1.75em;
   letter-spacing: -0.0085em;
   word-spacing: 0.2em;
-`
 
-const StrongText = styled.strong`
-  color: #333;
-  padding: 2px;
-  text-decoration: underline;
-`
+  .page-title {
+    padding: 0 0 10px;
+    color: #333;
+    font-weight: 700;
+    font-size: 2.4rem;
+    letter-spacing: -0.02em;
+    line-height: 1.3em;
+  }
+  .section-title {
+    padding: 20px 0 4px;
+    color: #4a5568;
+    font-weight: 700;
+    font-size: 1.785rem;
+    text-align: left;
+  } 
 
-const ExtLink = styled.a.attrs({
-  target: '_blank'
-})`
-  color: #2980b9;
-  &:hover {
-    color: #ffd700;
+  .sub-section-title {
+    padding: 0 0 20px;
+    color: #4a5568;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
+  .date-info {
+    padding: 0 0 20px;
+    color: #8d9096;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .code-block {
+    margin: 20px 0;
+    padding: 0 40px;
+    background-color: #f5f7f8;
+    border-radius: var(--radius-value);
   }
 `
-
-const Code = styled.code`
-  color: inherit;
-  font-size: 1.125rem;
-  font-family: Vernada;
-  background-color: #f3f3f3;
-  padding: 0 0.3em;
-  border-radius: 3px;
-`
-
-const DividerLine = styled.hr`
-  border: 1px solid #f4f4f4;
-`
-
-const Image = styled.img`
-  border: 5px solid #895fad;
-  border-left: none;
-  border-right: none;
-`
-
-const Codebox = styled.pre`
-  margin: 20px 0;
-  padding: 0 40px;
-  background-color: #f5f7f8;
-  border-radius: var(--radius-value);
-    & code {
-      color: #444;
-      font-size: 0.95rem;
-      font-family: Vernada;
-      background-color: transparent;
-      
-      p { 
-        color: #444;
-        font-size: 0.95rem;
-        line-height: 1.6em;
-        font-family: Vernada;
-
-        pre {
-          background-color: transparent;
-        }
-      }
-    }
-`
-
-const options = {
-  namedCodesToUnicode: {
-    apos: '&#39;',
-  }, 
-  overrides: {
-      h1: {
-        component: MainTitle
-      },
-      h2: {
-        component: SectionTitle
-      },
-      h3: {
-        component: SubSectionTitle
-      },
-      h4: {
-        component: DateTitle
-      },
-      p: {
-        component: ParaText
-      },
-      strong: {
-        component: StrongText
-      },
-      a: {
-        component: ExtLink
-      },
-      code: {
-        component: Code
-      },
-      img: {
-        component: Image
-      },
-      hr: {
-        component: DividerLine
-      },
-      pre: {
-        component: Codebox
-      },
-  }
-}
