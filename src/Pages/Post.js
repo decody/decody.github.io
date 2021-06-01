@@ -7,8 +7,6 @@ import Navbar from '../Components/Navbar';
 import '../Styles/App.css';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
-// import rehypeHighlight from 'rehype-highlight';  
-import gfm from 'remark-gfm';
 
 class Post extends Component {
 
@@ -90,22 +88,19 @@ const MarkdownStyle = styled.div`
     font-weight: 700;
     font-size: 1.785rem;
     text-align: left;
-  } 
-
+  }
   .sub-section-title {
     padding: 0 0 20px;
     color: #4a5568;
     font-size: 1.4rem;
     text-transform: uppercase;
   }
-
   .date-info {
     padding: 0 0 20px;
     color: #8d9096;
     font-size: 1rem;
     text-transform: uppercase;
   }
-  
   .code-block {
     margin: 20px 0;
     padding: 0 40px;
