@@ -1,0 +1,59 @@
+@charset 'utf-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3em;
+  background-color: #f5f5f5;
+}
+header {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 5.5rem;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-size: 1.2rem;
+}
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.main {
+  min-width: 1440px;
+  text-align: center;
+}
+.imgbox {
+  margin: 17em 1em 0 1em;
+}
+.main-copy {
+  margin-top: 6rem;
+  font-size: 7rem;
+  line-height: 1em;
+  white-space: nowrap;
+  letter-spacing: -0.05rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-indent: -1rem;
+}
+.sub-txt {
+  font-size: 1.6rem;
+  line-height: 1.25em;
+  font-family: "Noto Sans KR", sans-serif;
+}
