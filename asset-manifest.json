@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ee5deb6.css",
+    "main.js": "/static/js/main.c3c03bfb.js",
+    "static/js/453.fdd39cfc.chunk.js": "/static/js/453.fdd39cfc.chunk.js",
+    "static/media/main_visual_ai.webp": "/static/media/main_visual_ai.3b56fbaaea1b128f6cb4.webp",
+    "static/media/contact_img_01.webp": "/static/media/contact_img_01.2d645f9b723170c36c84.webp",
+    "static/media/main_visual_fb.webp": "/static/media/main_visual_fb.3cb59a4d949b94c9662d.webp",
+    "static/media/contact_img_02.webp": "/static/media/contact_img_02.adf18fb64294ca73fffa.webp",
+    "static/media/gen_ai_10.jpg": "/static/media/gen_ai_10.9d9268043d9ed1e4efdb.jpg",
+    "static/media/midwork.jpg": "/static/media/midwork.ff97f50164bf0acb5577.jpg",
+    "static/media/letter_c.png": "/static/media/letter_c.b3c3b3a36989515a0b13.png",
+    "static/media/letter_p.png": "/static/media/letter_p.154aab2d98ef6b526eb3.png",
+    "static/media/letter_r.png": "/static/media/letter_r.afa4ea52afe30fd5434b.png",
+    "static/media/letter_o.png": "/static/media/letter_o.24c7913c4de4935a827e.png",
+    "static/media/letter_t.png": "/static/media/letter_t.0697d2a5360beb5b0b70.png",
+    "static/media/bg_contact_line.png": "/static/media/bg_contact_line.73c9c8f74176b16c0aa6.png",
+    "static/media/bg_about_line.png": "/static/media/bg_about_line.af9475d35594388499c6.png",
+    "static/media/letter_e.png": "/static/media/letter_e.2ccdb2aeb7d00f3a7192.png",
+    "static/media/letter_j.png": "/static/media/letter_j.eaaeabf992576100c9ed.png",
+    "static/media/copy_juxt.svg": "/static/media/copy_juxt.7553f35012fc8e8287323881b19ff63d.svg",
+    "static/media/logo_rb.svg": "/static/media/logo_rb.f6da24497f0840b299cc4eb9e7c9a4ac.svg",
+    "index.html": "/index.html",
+    "main.0ee5deb6.css.map": "/static/css/main.0ee5deb6.css.map",
+    "main.c3c03bfb.js.map": "/static/js/main.c3c03bfb.js.map",
+    "453.fdd39cfc.chunk.js.map": "/static/js/453.fdd39cfc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ee5deb6.css",
+    "static/js/main.c3c03bfb.js"
+  ]
+}
